@@ -1,3 +1,5 @@
+Check out the live website for this project here 👉 https://cpu-optimizer.netlify.app/
+
 Project Overview
 This project implements a CPU Scheduling Simulator in Java that evaluates the efficiency of different scheduling algorithms using Average Waiting Time as the main metric. Each process contains arrival time, burst time, completion time, turnaround time, and waiting time.
 
