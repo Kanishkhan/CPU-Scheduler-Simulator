@@ -40,7 +40,3 @@ A comprehensive, interactive web-based **CPU Scheduling Simulator** comparing Fi
 
 Contributions to improve the simulator or add new algorithms (e.g., SJF, Priority Scheduling) are welcome. Please follow standard fork-and-pull-request workflows.
 
-## Author
-
-**Kanishk Khan**
-- [GitHub Profile](https://github.com/Kanishkhan)
