@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CPU Scheduling Optimizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>CPU Scheduling Optimizer</h1>
+    <p>Analyze FCFS • Round Robin • Hill Climbing Optimization</p>
+</header>
+
+<section class="card">
+    <h2>Add Process</h2>
+    <div class="input-group">
+        <input type="number" id="arrival" placeholder="Arrival Time">
+        <input type="number" id="burst" placeholder="Burst Time">
+        <button onclick="addProcess()">Add Process</button>
+    </div>
+
+    <table id="processTable">
+        <tr>
+            <th>PID</th>
+            <th>Arrival Time</th>
+            <th>Burst Time</th>
+        </tr>
+    </table>
+
+    <button class="run-btn" onclick="runScheduler()">Run Scheduling</button>
+</section>
+
+<section class="card">
+    <h2>Results</h2>
+    <table id="resultTable">
+        <tr>
+            <th>Algorithm</th>
+            <th>Average Waiting Time (ms)</th>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    <p>CPU Scheduling Optimization System • Built with Java & Web Technologies</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
